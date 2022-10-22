@@ -1,6 +1,6 @@
 package edu.roberto.tiposVariaveis;
 
-public class AlgumaCoisa {
+public class VariaveisConstantes {
     public static void main(String[] args) {
         
         long cpf = 987123456787885469l;
@@ -13,8 +13,9 @@ public class AlgumaCoisa {
         int soma = 785412365;
         int resultado =  NUMERO + soma;
     
-        if (NUMERO==0)
+        if (NUMERO==0){
             System.out.print(resultado);
+        }
         else
             System.out.print("maior que zero");
 

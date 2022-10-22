@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OperacoesCondicionais",
+            "request": "launch",
+            "mainClass": "edu.roberto.operadores.OperacoesCondicionais",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operacao",
+            "request": "launch",
+            "mainClass": "edu.roberto.operadores.Operacao",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
             "name": "Launch AlgumaCoisa",
             "request": "launch",
             "mainClass": "edu.roberto.tiposVariaveis.AlgumaCoisa",
