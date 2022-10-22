@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AlgumaCoisa",
+            "request": "launch",
+            "mainClass": "edu.roberto.tiposVariaveis.AlgumaCoisa",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
             "name": "Launch SistemaDeNomes",
             "request": "launch",
             "mainClass": "edu.roberto.anatomiaJava.SistemaDeNomes",
