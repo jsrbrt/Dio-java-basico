@@ -1,4 +1,4 @@
-package edu.roberto.operadores;
+package edu.roberto.aula3Operadores;
 
 public class OperacoesCondicionais {
     public static void primeirasAulas() {

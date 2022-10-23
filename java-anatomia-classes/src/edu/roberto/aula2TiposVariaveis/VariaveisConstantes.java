@@ -1,4 +1,4 @@
-package edu.roberto.tiposVariaveis;
+package edu.roberto.aula2TiposVariaveis;
 
 public class VariaveisConstantes {
 
@@ -13,7 +13,7 @@ public class VariaveisConstantes {
         //numero = 2;
         int soma = 785412365;
         int resultado =  NUMERO + soma;
-    
+        System.out.println(resultado);
         if (NUMERO==0){
             System.out.println(resultado);
         }

@@ -1,4 +1,4 @@
-package edu.roberto.operadores;
+package edu.roberto.aula3Operadores;
 
 public class Operacao {
     public static void main(String[] args) {

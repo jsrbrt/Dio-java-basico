@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Cliente",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula5Escopos.CaixaEletronico.Cliente",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cliente",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula5Escopos.Cliente",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Usuario",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula4Metodos.SmartTv.Usuario",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
             "name": "Launch VariaveisConstantes",
             "request": "launch",
             "mainClass": "edu.roberto.tiposVariaveis.VariaveisConstantes",

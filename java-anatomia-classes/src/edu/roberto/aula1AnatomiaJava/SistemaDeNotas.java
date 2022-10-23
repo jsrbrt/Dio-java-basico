@@ -1,4 +1,4 @@
-package edu.roberto.anatomiaJava;
+package edu.roberto.aula1AnatomiaJava;
 public class SistemaDeNotas {
     public static void main (String [] args){
         double mediaFinal = .5;
