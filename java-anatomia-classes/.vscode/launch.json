@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Usuario",
+            "request": "launch",
+            "mainClass": "edu.roberto.metodos.SmartTv.Usuario",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
             "name": "Launch OperacoesCondicionais",
             "request": "launch",
             "mainClass": "edu.roberto.operadores.OperacoesCondicionais",
