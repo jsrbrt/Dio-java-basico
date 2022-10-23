@@ -1,9 +1,10 @@
 package edu.roberto.tiposVariaveis;
 
 public class VariaveisConstantes {
+
     public static void main(String[] args) {
         
-        long cpf = 987123456787885469l;
+        //long cpf = 987123456787885469l;
     
         final int NUMERO = 0;
         //int numero = 0;
@@ -14,12 +15,11 @@ public class VariaveisConstantes {
         int resultado =  NUMERO + soma;
     
         if (NUMERO==0){
-            System.out.print(resultado);
+            System.out.println(resultado);
         }
         else
-            System.out.print("maior que zero");
-
-
+            System.out.println("maior que zero");
+        //Dead code pq quando a variaveel é final ou o else ou o if nunca serão usado pq a variável é imutável
 
     }
 }

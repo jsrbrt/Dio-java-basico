@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch VariaveisConstantes",
+            "request": "launch",
+            "mainClass": "edu.roberto.tiposVariaveis.VariaveisConstantes",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
             "name": "Launch Usuario",
             "request": "launch",
             "mainClass": "edu.roberto.metodos.SmartTv.Usuario",

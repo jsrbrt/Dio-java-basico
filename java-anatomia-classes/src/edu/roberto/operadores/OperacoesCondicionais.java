@@ -1,7 +1,5 @@
 package edu.roberto.operadores;
 
-import javax.print.event.PrintEvent;
-
 public class OperacoesCondicionais {
     public static void primeirasAulas() {
         int a = 4;
@@ -9,7 +7,7 @@ public class OperacoesCondicionais {
         //int b = 5;
 
         String resultado = a+b==10 ? "verdadeiro" : "falso";
-        //System.out.println(resultado);
+        System.out.println(resultado);
 
         String nomeUm = "Roberto";
         String nomeDois = new String("Roberto");

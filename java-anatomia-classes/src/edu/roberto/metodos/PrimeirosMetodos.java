@@ -11,9 +11,9 @@ public class PrimeirosMetodos {
     public static double dividir(int dividendo, int divisor){
     return dividendo / divisor;
     }
-    private void metodoPrivado(){
+    /*private void metodoPrivado(){
 
-    }
+    }*/
     public static void gravar (){
     ;
     }
