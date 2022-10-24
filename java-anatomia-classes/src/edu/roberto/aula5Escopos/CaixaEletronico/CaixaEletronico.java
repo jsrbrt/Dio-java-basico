@@ -10,13 +10,13 @@ public class CaixaEletronico {
     int querSacar;
     
     int querSaldo;
-    Scanner in = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
 
     public void sacar(double valor) {
         if(querSacar == 1){
             System.out.print("Digite o valor desejado: ");
-            valor = in.nextDouble();
+            valor = scanner.nextDouble();
             novoSaldo = saldo - valor;
             querSaldo = 2;
             mostrarSaldo();

@@ -17,7 +17,11 @@ public class Calculadora {
             Dividir();
         }else if(operacao.equals("%")){
           Porcentagem();
-        }
+        }else if(operacao.equals("elevado")){
+          Elevar();
+        }/*else if(operacao.equalsIgnoreCase("raiz")){
+          ResolverRaiz();
+        }*/
         else{
             System.out.println("Operação desconhecida");
         }
@@ -37,5 +41,11 @@ public class Calculadora {
       public double Porcentagem (){
         return resultado = (primeiroNumero * segundoNumero) / 100;
       }
+      public double Elevar (){
+        return resultado = Math.pow(primeiroNumero, segundoNumero);
+      }
+      /*public double ResolverRaiz (){
+        return resultado = Math.sqrt(primeiroNumero);
+      }*/
 
 }

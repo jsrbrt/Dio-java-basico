@@ -10,7 +10,6 @@ String simNao;
 String changeVolume;
 String changeChannel;
 
-
         public void toTurnItOn(){
             if(simNao.equalsIgnoreCase("sim")){
                 onOff = true;
@@ -20,7 +19,7 @@ String changeChannel;
         }
 
         public void toTurnItOff(){
-            onOff= false;
+            onOff = false;
         }
 
         public void toChangeVolume(){
