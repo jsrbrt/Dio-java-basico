@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Aluno",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula6JavaDoc.Aluno",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula6JavaDoc.Calculadora",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
             "name": "Launch Cliente",
             "request": "launch",
             "mainClass": "edu.roberto.aula5Escopos.CaixaEletronico.Cliente",
