@@ -14,11 +14,11 @@ public class VariaveisConstantes {
         int soma = 785412365;
         int resultado =  NUMERO + soma;
         System.out.println(resultado);
-        if (NUMERO==0){
+        /*if (NUMERO==0){
             System.out.println(resultado);
         }
         else
-            System.out.println("maior que zero");
+            System.out.println("maior que zero");*/
         //Dead code pq quando a variaveel é final ou o else ou o if nunca serão usado pq a variável é imutável
 
     }

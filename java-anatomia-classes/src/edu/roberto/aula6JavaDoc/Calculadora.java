@@ -6,7 +6,7 @@ public class Calculadora {
     String operacao;
     double resultado;
 
-    public void DecidirOperacao (double resultado) {
+    public void DecidirOperacao () {
         if(operacao.equals("+")){
             Somar();
         }else if(operacao.equals("-")){
@@ -15,6 +15,11 @@ public class Calculadora {
             Multiplicar();
         }else if(operacao.equals("/")){
             Dividir();
+        }else if(operacao.equals("%")){
+          Porcentagem();
+        }
+        else{
+            System.out.println("Operação desconhecida");
         }
       }
     public double Somar () {
@@ -28,6 +33,9 @@ public class Calculadora {
       }
       public double Dividir () {
         return resultado = primeiroNumero / segundoNumero;
+      }
+      public double Porcentagem (){
+        return resultado = (primeiroNumero * segundoNumero) / 100;
       }
 
 }
