@@ -6,6 +6,40 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ClienteBanco",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula7Terminais.BancoTerminal.ClienteBanco",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SobreMim",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula7Terminais.SobreMim",
+            "args": [
+                "José",
+                "Roberto",
+                "18",
+                "1.85"
+            ],
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aluno",
+            "request": "launch",
+            "mainClass": "Aluno",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula7Terminais.Teste",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
             "name": "Launch Aluno",
             "request": "launch",
             "mainClass": "edu.roberto.aula6JavaDoc.Aluno",
