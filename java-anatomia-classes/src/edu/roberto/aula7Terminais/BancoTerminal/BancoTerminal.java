@@ -16,8 +16,8 @@ public class BancoTerminal {
 public void conferirSenha() {
     System.out.println("Por favor, insira sua senha:");
         senha = scanner.nextLong();
-    if(senha == 25252828){
-        System.out.println("Senha correta, Seja bem vindo Roberto Manso.");
+    if(senha == 123){
+        System.out.println("Senha correta, Seja bem vindo Cliente.");
         conferirSaldo();
     }
     else{
