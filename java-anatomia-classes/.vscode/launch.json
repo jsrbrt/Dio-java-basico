@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Launch ClienteBanco",
             "request": "launch",
+            "mainClass": "ClienteBanco",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SobreMim",
+            "request": "launch",
+            "mainClass": "SobreMim",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClienteBanco",
+            "request": "launch",
             "mainClass": "edu.roberto.aula7Terminais.BancoTerminal.ClienteBanco",
             "projectName": "java-anatomia-classes_567bfdbc"
         },

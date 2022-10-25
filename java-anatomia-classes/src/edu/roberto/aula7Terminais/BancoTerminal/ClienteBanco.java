@@ -1,5 +1,4 @@
-package edu.roberto.aula7Terminais.BancoTerminal;
-//import java.util.Scanner;
+
 
 public class ClienteBanco {
     public static void main(String[] args) {

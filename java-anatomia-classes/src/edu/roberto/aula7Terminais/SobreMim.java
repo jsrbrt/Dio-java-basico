@@ -1,4 +1,4 @@
-package edu.roberto.aula7Terminais;
+
 
 import java.util.Locale;
 import java.util.Scanner;
