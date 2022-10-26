@@ -1,4 +1,4 @@
-package edu.roberto.aula4Metodos.SmartTv;
+package SmartTv;
 
 public class SmartTv {
 

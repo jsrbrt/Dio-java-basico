@@ -1,4 +1,3 @@
-package edu.roberto.aula1AnatomiaJava;
 public class SistemaDeNomes {
     public static void main(String[] args) {
         String primeiroNome = "José";

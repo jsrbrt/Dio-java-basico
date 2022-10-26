@@ -1,4 +1,3 @@
-package src;
 
 import java.util.Scanner;
 
@@ -31,7 +30,7 @@ public class OperadoresLogicos {
             //Opção que tem os valores fixos (mais simples)
 
             //boolean recebeAuxilio = (salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes);
-            double salarioMensal = 1200;
+            double salarioMensal = 1000;
             int quantidadeDependentes = 2;
             double mediaSalario = 1200;
             int mediaDependentes = 2;
@@ -39,7 +38,11 @@ public class OperadoresLogicos {
             boolean muitosDependentes = (quantidadeDependentes >= mediaDependentes);
             boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
             
-        System.out.println("Você recebe o auxilio? " + (recebeAuxilio));
+            if (recebeAuxilio) {
+                System.out.println("Você recebe o auxilio.");
+            }else{
+                System.out.println("Você não recebe o auxilio.");
+            }
         }
     }
     public void recebeAuxilio2() {
@@ -58,7 +61,11 @@ public class OperadoresLogicos {
             boolean muitosDependentes = (quantidadeDependentes >= mediaDependentes);
             boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
 
-        System.out.println("Você recebe o auxilio? " + (recebeAuxilio));
+        if (recebeAuxilio) {
+            System.out.println("Você recebe o auxilio.");
+        }else{
+            System.out.println("Você não recebe o auxilio.");
+        }
         }
     }
     public void verificarCota() {

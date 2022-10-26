@@ -1,4 +1,4 @@
-package edu.roberto.aula4Metodos.SmartTv;
+package SmartTv;
 
 import java.util.Scanner;
 

@@ -1,4 +1,3 @@
-package edu.roberto.aula2TiposVariaveis;
 
 public class VariaveisConstantes {
 

@@ -1,4 +1,4 @@
-package edu.roberto.aula5Escopos.CaixaEletronico;
+package CaixaEletronico;
 import java.util.Scanner;
 
 public class Cliente {
