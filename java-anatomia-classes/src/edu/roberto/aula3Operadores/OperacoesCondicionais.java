@@ -18,9 +18,9 @@ public class OperacoesCondicionais {
             String condicaoVerdadeira = numeroUm != numeroDois ? "A condição é verdadeira" : "A condição é falsa";
                 System.out.println(condicaoVerdadeira);
 
-        /*if (numeroUm != numeroDois){
+        /*if (numeroUm != numeroDois)
             System.out.println("A condição é verdadeira");
-        }
+        
         else
             System.out.println("A condição é falsa");*/
 
@@ -39,12 +39,12 @@ public class OperacoesCondicionais {
         boolean condicaoDois = false;
         condicaoDois = !condicaoDois;
         //condicaoUm = !condicaoUm;
-            if(condicaoUm && condicaoDois && (7 > 5)){
+            if(condicaoUm && condicaoDois && (7 > 5))
                 System.out.println("As três condições são verdadeiras.");
-            }
-            else if(condicaoUm || condicaoDois){
+            
+            else if(condicaoUm || condicaoDois)
                 System.out.println("Uma das condições é verdadeira.");
-            }
+            
             else
                 System.out.println("As duas condições são falsas.");
         

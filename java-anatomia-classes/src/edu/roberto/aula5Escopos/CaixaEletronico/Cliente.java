@@ -8,9 +8,9 @@ public class Cliente {
             System.out.println("Você vai querer ver seu saldo? Se sim digite 1, caso não, digite 0. ");
             caixaEletronico.querSaldo = scanner.nextInt();
             caixaEletronico.mostrarSaldo();
-            if(caixaEletronico.querSaldo == 1){
+            if(caixaEletronico.querSaldo == 1)
                 
-            } System.out.println("Você vai querer sacar dinheiro? Se sim digite 1, caso não, digite 0. ");
+             System.out.println("Você vai querer sacar dinheiro? Se sim digite 1, caso não, digite 0. ");
             caixaEletronico.querSacar = scanner.nextInt();
             caixaEletronico.sacar(0);
         }

@@ -11,11 +11,11 @@ String changeVolume;
 String changeChannel;
 
         public void toTurnItOn(){
-            if(simNao.equalsIgnoreCase("sim")){
+            if(simNao.equalsIgnoreCase("sim"))
                 onOff = true;
-            }else{
+            else
                 System.out.println("Tv desligada");
-            }
+            
         }
 
         public void toTurnItOff(){

@@ -13,9 +13,9 @@ public class Aluno {
                 
             //System.out.println("Insira a operação desejada: ");
             calculadora.operacao = scanner.next();
-            if(calculadora.operacao.equals("elevado")){
+            if(calculadora.operacao.equals("elevado"))
                 calculadora.artigo = scanner.next();
-            }
+            
             //System.out.println("Insira o segundo número:");
                 calculadora.segundoNumero = scanner.nextDouble();
             calculadora.DecidirOperacao();

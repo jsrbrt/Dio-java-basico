@@ -28,15 +28,15 @@ public class CaixaEletronico {
     public void mostrarSaldo(){
         if(querSaldo == 1){
             System.out.println("Seu saldo atual é: " + saldo);
-            if(querSacar == 1){
+            if(querSacar == 1)
                 System.out.println("Seu saldo atual é: " + novoSaldo);
 
-            }
+            
         }else if(querSaldo==0)
-        {
+        
             System.out.println("Muito obrigado por usar nosso caixa eletrônico.");
-        }else{
+        else
             System.out.println("Seu saldo atual é: " + novoSaldo);
-        }
+        
     }
 }

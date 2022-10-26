@@ -38,11 +38,11 @@ public class OperadoresLogicos {
             boolean muitosDependentes = (quantidadeDependentes >= mediaDependentes);
             boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
             
-            if (recebeAuxilio) {
+            if (recebeAuxilio) 
                 System.out.println("Você recebe o auxilio.");
-            }else{
+            else
                 System.out.println("Você não recebe o auxilio.");
-            }
+            
         }
     }
     public void recebeAuxilio2() {
@@ -61,11 +61,11 @@ public class OperadoresLogicos {
             boolean muitosDependentes = (quantidadeDependentes >= mediaDependentes);
             boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
 
-        if (recebeAuxilio) {
+        if (recebeAuxilio) 
             System.out.println("Você recebe o auxilio.");
-        }else{
+        else
             System.out.println("Você não recebe o auxilio.");
-        }
+        
         }
     }
     public void verificarCota() {
