@@ -141,13 +141,13 @@ public class ExercicioLoops {
         */
 
         int numero;
-        int counter = 1;
 
         System.out.println("Digite o número desejado pra sua tabuada:");
             numero = scan.nextInt();
         System.out.println("Tabuada de " + numero + ":");
 
-        /*while (counter < 11){
+        /*int counter = 1;
+        while (counter < 11){
             System.out.println(numero + " X " + counter + " = " + numero * counter);
             counter++;
         }*/
