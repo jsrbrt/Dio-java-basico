@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class OperadoresLogicos {
     public static void main(String[] args) {
 
-        OperadoresLogicos operadoresLogicos = new OperadoresLogicos();
+        //OperadoresLogicos operadoresLogicos = new OperadoresLogicos();
 
         boolean b1 = true;
         boolean b2 = false;
@@ -12,19 +12,19 @@ public class OperadoresLogicos {
             System.out.println(!b2);
 
         //Opção que tem os valores fixos (mais simples)
-        operadoresLogicos.recebeAuxilio();
+        OperadoresLogicos.recebeAuxilio();
 
         //Opção que o usuario pode escolher o salario e dependentes
-        operadoresLogicos.recebeAuxilio2();
+        OperadoresLogicos.recebeAuxilio2();
 
         //Opção de verificar cota simples
-        operadoresLogicos.verificarCota();
+        OperadoresLogicos.verificarCota();
 
         //Opção de verificar cota com mais complexo
-        operadoresLogicos.verificarCota2();
+        OperadoresLogicos.verificarCota2();
 
     }
-    public void recebeAuxilio() {
+    public static void recebeAuxilio() {
         try (Scanner scanner = new Scanner(System.in)) {
 
             //Opção que tem os valores fixos (mais simples)
@@ -45,7 +45,7 @@ public class OperadoresLogicos {
             
         }
     }
-    public void recebeAuxilio2() {
+    public static void recebeAuxilio2() {
         try (Scanner scanner = new Scanner(System.in)) {
 
         double salarioMensal;
@@ -68,14 +68,14 @@ public class OperadoresLogicos {
         
         }
     }
-    public void verificarCota() {
+    public static void verificarCota() {
             boolean deficiente = false;
             boolean negro = false;
             boolean recebeCota = (deficiente) || (negro);
 
             System.out.println("Você tem cota? " + (recebeCota));
     }
-    public void verificarCota2() {
+    public static void verificarCota2() {
         try (Scanner scanner = new Scanner(System.in)) {
             boolean baixaRenda;
             boolean deficiente;
