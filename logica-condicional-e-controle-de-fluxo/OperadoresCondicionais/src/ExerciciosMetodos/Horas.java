@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Horas {
 
     public static void main(String[] args) {
-        //Horas horas = new Horas();
-        Scanner scanner = new Scanner(System.in);
-        
-        while(true){
-        System.out.println("Digite o horário:");
-        decidirMensagem(scanner.nextInt());
+        try (//Horas horas = new Horas();
+        Scanner scanner = new Scanner(System.in)) {
+            while(true){
+            System.out.println("Digite o horário:");
+            decidirMensagem(scanner.nextInt());
+            }
         }
     }
     public static void decidirMensagem(double hora) {
