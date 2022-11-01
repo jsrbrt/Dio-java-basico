@@ -22,7 +22,7 @@ public class OperadoresLogicos {
 
         //Opção de verificar cota com mais complexo
         OperadoresLogicos.verificarCota2();
-
+  
     }
     public static void recebeAuxilio() {
         try (Scanner scanner = new Scanner(System.in)) {
