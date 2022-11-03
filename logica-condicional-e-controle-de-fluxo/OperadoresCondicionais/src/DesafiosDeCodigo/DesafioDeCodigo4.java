@@ -16,9 +16,10 @@ public class DesafioDeCodigo4 {
         Caso o valor não seja múltiplo de 3 ou 5, exiba o número, conforme o enunciado.*/
     public static void main(String[] args) {
 
-        Scanner number = new Scanner(System.in); 
+        try (Scanner number = new Scanner(System.in)) {
             int num = number.nextInt();
-            System.out.println(funcao(num)); 
+            System.out.println(funcao(num));
+        } 
         
 
     }public static String funcao(int num) {
