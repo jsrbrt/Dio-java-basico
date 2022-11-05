@@ -35,21 +35,29 @@ System.out.println();
 System.out.println();
 
 //o comparable é necessário pra chamar o treeset, sem o codigo dele fazendo a comparação, não funciona
-        System.out.println("Exiba as séries de ordem natural:");
+        System.out.println("Exiba as séries na ordem natural:");
             Set<Serie> minhasSeries3 = new TreeSet<>(minhasSeries);
             System.out.println(minhasSeries3);
 System.out.println();
 
 //tenho que chamar com new pq nao existe aqui nessa classe
-        System.out.println("Exiba as séries de ordem nome/genero/tempo de episodio:");
+        System.out.println("Exiba as séries na ordem nome/gênero/tempo de episodio:");
             Set<Serie> minhasSeries4 = new TreeSet<>(new ComparatorNomeGeneroTempoEpisodio());
             //addAll recebe a collection
             minhasSeries4.addAll(minhasSeries);
             System.out.println(minhasSeries4);
 System.out.println();
 
-        System.out.println("ordenar por genero");
-        System.out.println("ordenar por tempo de episodio");
+        System.out.println("Exiba as séries na ordem por gênero");
+        Set<Serie> minhasSeries5 = new TreeSet<>(new ComparatorGenero());
+        minhasSeries5.addAll(minhasSeries);
+        System.out.println(minhasSeries5);
+System.out.println();
+
+        System.out.println("Exiba as séries na ordem por tempo de episodio");
+        Set<Serie> minhasSeries6 = new TreeSet<>(new ComparatorTempoEpisodio());
+        minhasSeries6.addAll(minhasSeries);
+        System.out.println(minhasSeries6);
     }
 }
 class Serie implements Comparable<Serie> {
@@ -108,6 +116,18 @@ class ComparatorNomeGeneroTempoEpisodio implements Comparator<Serie> {
         if(genero != 0) return genero;
         //se os generos forem iguais ele vai comparar por tempo de episodio, e se o tempo de episodio for igual as series são iguais, então tanto faz
         return Integer.compare(s1.getTempoEpisodio(), s2.getTempoEpisodio());
+    }
+}
+class ComparatorGenero implements Comparator<Serie> {
+    public int compare(Serie s1, Serie s2){
+        int genero = s1.getGenero().compareToIgnoreCase(s2.getGenero());
+        return genero;
+    }
+}
+class ComparatorTempoEpisodio implements Comparator<Serie>{
+    public int compare(Serie s1, Serie s2){
+        int tempoEpisodio = s1.getTempoEpisodio().compareTo(s2.getTempoEpisodio()); 
+        return tempoEpisodio;
     }
 }
 
