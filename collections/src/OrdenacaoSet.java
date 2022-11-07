@@ -127,7 +127,10 @@ class ComparatorGenero implements Comparator<Serie> {
 class ComparatorTempoEpisodio implements Comparator<Serie>{
     public int compare(Serie s1, Serie s2){
         int tempoEpisodio = s1.getTempoEpisodio().compareTo(s2.getTempoEpisodio()); 
+        if(tempoEpisodio != 0)
         return tempoEpisodio;
+
+        return s1.getGenero().compareToIgnoreCase(s2.getGenero());
     }
 }
 
