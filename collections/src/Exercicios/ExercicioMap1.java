@@ -1,6 +1,4 @@
 package Exercicios;
-
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -81,15 +79,15 @@ public class ExercicioMap1 {
                 System.out.println("O estado com a maior população é " + maiorEstado + " com a população de " + maiorPopulacao + " habitantes.");
             }
         }
-        Collection<Integer> populacoes = estados2.values();
-        Iterator<Integer> iterator = populacoes.iterator();
+        //Collection<Integer> populacoes = estados2.values();
+        Iterator<Integer> iterator = estados2.values().iterator();
         int soma = 0;
         while(iterator.hasNext()) soma += iterator.next();
         
         System.out.println("A soma das populações é de: " + soma);
-        System.out.println("A média das populações é de: " + soma/populacoes.size());
+        System.out.println("A média das populações é de: " + soma/estados2.size());
 
-        Iterator<Integer> iterator2 = populacoes.iterator();
+        Iterator<Integer> iterator2 = estados2.values().iterator();
         while(iterator2.hasNext()) 
             if(iterator2.next()<4000000) 
             iterator2.remove();

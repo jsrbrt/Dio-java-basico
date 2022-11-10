@@ -1,7 +1,7 @@
 package Exercicios;
 
 import java.util.ArrayList;
-import java.util.Collections;
+//import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -15,42 +15,24 @@ public class ExercicioMap2 {
         List<Integer> numeros = new ArrayList<>();
         Random random = new Random();
      
-        int i = 0;//, qntd1 = 0, qntd2 = 0, qntd3 = 0, qntd4 = 0, qntd5 = 0, qntd6 = 0;
+        /*int i = 0;
         while(i < 100){
             int numero = random.nextInt(7);
-            if(numero != 0){
-                numeros.add(numero); i++;
-                /*switch (numero) {
-                    case 1:
-                        qntd1++;
-                        break;
-                    case 2:
-                        qntd2++;
-                        break;
-                    case 3:
-                        qntd3++;
-                        break;
-                    case 4:
-                        qntd4++;
-                        break;
-                    case 5:
-                        qntd5++;
-                        break;
-                    case 6:
-                        qntd6++;
-                        break;
-                }*/
-            } 
+            if(numero != 0)
+                numeros.add(numero); i++;  
+        }*/
+        for (int i = 0; i < 100; i++) {
+            int valor = random.nextInt(6)+1;
+            numeros.add(valor);
         }
-        /*System.out.print("{1=" + qntd1 + ", ");
-        System.out.print("2=" + qntd2+ ", ");
-        System.out.print("3=" + qntd3+ ", ");
-        System.out.print("4=" + qntd4+ ", ");
-        System.out.print("5=" + qntd5+ ", ");
-        System.out.println("6=" + qntd6 + "}");*/
-        
-        
-        Map<Integer, Integer> quantidade = new HashMap<>(){{
+        Map<Integer, Integer> quantidade = new HashMap<>();
+        for (Integer numero : numeros) {
+            if(quantidade.containsKey(numero)) quantidade.put(numero, (quantidade.get(numero))+1);
+            else quantidade.put(numero, 1);
+        }
+        System.out.println(quantidade);
+        /*System.out.println();
+        Map<Integer, Integer> quantidade2 = new HashMap<>(){{
             put(1, Collections.frequency(numeros, 1));
             put(2, Collections.frequency(numeros, 2));
             put(3, Collections.frequency(numeros, 3));
@@ -58,7 +40,22 @@ public class ExercicioMap2 {
             put(5, Collections.frequency(numeros, 5));
             put(6, Collections.frequency(numeros, 6));
         }};
-        System.out.println(quantidade);
+        System.out.println(quantidade2);*/
 
+//conteudo feito pela professora, para estudo futuro
+        System.out.print("Jogando");
+        //conteúdo do for + try/cath - totalmente opcional
+        for (int i = 0; i < 3; i++) {
+            try {
+                Thread.sleep(3000);
+                System.out.print(".");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("\nValor " + " Quant. de vezes");
+        for (Map.Entry<Integer, Integer> entry : quantidade.entrySet()) {
+            System.out.printf("%3d %10d\n", entry.getKey(), entry.getValue());
+        }
     }
 }

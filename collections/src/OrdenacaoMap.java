@@ -66,7 +66,7 @@ System.out.println();
         }
     }
 }
-class Livro{
+ class Livro{
     private String nome;
     private Integer paginas;
 

@@ -59,7 +59,7 @@ System.out.println();
     }
 }
 //puxou (implementou) da interface comparable, entao ele é obrigado a chamar o metodo compareTo
-class Gato implements Comparable<Gato>{ 
+ class Gato implements Comparable<Gato>{
     private String nome;
     private Integer idade;
     private String cor;
