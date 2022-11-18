@@ -17,13 +17,7 @@ public class Robo {
 
     @Override
     public String toString() {
-        return "Robo{" +
-                "comportamento=" + comportamento +
-                '}';
-    }
-    /*@Override
-    public String toString() {
         return "Robô\n" +
                 "Comportamento = " + comportamento;
-    }*/
+    }
 }

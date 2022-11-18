@@ -25,7 +25,7 @@ public class Main {
         System.out.println(lazyHolder);*/
 
         //Strategy
-        /*Comportamento normal = new ComportamentoNormal();
+        Comportamento normal = new ComportamentoNormal();
         Comportamento agressivo = new ComportamentoAgressivo();
         Comportamento defensivo = new ComportamentoDefensivo();
 
@@ -59,7 +59,7 @@ public class Main {
                 }
             }
         } while (continueLooping);
-        robo.mover();*/
+        robo.mover();
 
         //Facade
         Facade facade = new Facade();
