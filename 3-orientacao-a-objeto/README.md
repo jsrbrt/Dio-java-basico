@@ -1,18 +1,13 @@
-## Getting Started
+## Descrição do Curso
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O projeto contém o conteúdo do curso de introdução ao paradigma de orientação a objetos, sendo algumas das aulas , etc. 
 
-## Folder Structure
+## Conteúdos
 
-The workspace contains two folders by default, where:
+Os conteúdos estão citados na ordem de apresentação:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> 1. [`Estrutura Básica da OO`](https://github.com/jsrbrt/Dio-java-basico/blob/main/3-orientacao-a-objeto/src/Carro.java) : contém o conteúdo da aula sobre a estrutura da orientação a objetos e seu exercício (Carro).
+> 2. [`Herança`](https://github.com/jsrbrt/Dio-java-basico/tree/main/3-orientacao-a-objeto/src/PolimorfismoSobrescrever) : contém o conteúdo da aula sobre Herança e e seu exercício (ClasseMae, ClasseFilha).
+> 3. [`Associação`](https://github.com/jsrbrt/Dio-java-basico/tree/main/3-orientacao-a-objeto/src/Escola) : contém o conteúdo da aula sobre associação e seu exercício (Escola).
+> 4. [`Interface`](https://github.com/jsrbrt/Dio-java-basico/blob/main/3-orientacao-a-objeto/src/Resolver.java) : contém o conteúdo da aula sobre interfaces e seus exercícios (Resolver).
+> 5. [`Exercício`](https://github.com/jsrbrt/Dio-java-basico/tree/main/3-orientacao-a-objeto/src/restaurante) : contém o exercício adicional para abstrair o conceito de um restaurante (Restaurante, Compra, Cupom).
