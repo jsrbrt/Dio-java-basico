@@ -1,3 +1,5 @@
+package Ordenacao;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -10,17 +12,17 @@ public class OrdenacaoArray {
     //jon 12 laranja
     
     public static void main(String[] args) {
-        /*Gato gato1 = new Gato("Jon", 18, "preto");
-        Gato gato2 = new Gato("Simba", 6, "tigrado");
-        Gato gato3 = new Gato("Jon", 12, "laranja");
-        List<Gato> meusGatinhos = new ArrayList<>(Arrays.asList(gato1, gato2, gato3));
+        /*Ordenacao.Gato gato1 = new Ordenacao.Gato("Jon", 18, "preto");
+        Ordenacao.Gato gato2 = new Ordenacao.Gato("Simba", 6, "tigrado");
+        Ordenacao.Gato gato3 = new Ordenacao.Gato("Jon", 12, "laranja");
+        List<Ordenacao.Gato> meusGatinhos = new ArrayList<>(Arrays.asList(gato1, gato2, gato3));
         System.out.println(meusGatinhos);
 
 
-        List<Gato> meusGato = new ArrayList<>();
-        meusGato.add(new Gato("Jon", 18, "preto"));
-        meusGato.add(new Gato("Simba", 6, "tigrado"));
-        meusGato.add(new Gato("Jon", 12, "laranja"));
+        List<Ordenacao.Gato> meusGato = new ArrayList<>();
+        meusGato.add(new Ordenacao.Gato("Jon", 18, "preto"));
+        meusGato.add(new Ordenacao.Gato("Simba", 6, "tigrado"));
+        meusGato.add(new Ordenacao.Gato("Jon", 12, "laranja"));
         System.out.println(meusGato);*/
 
         System.out.println("Crie uma lista com seus gatos:");

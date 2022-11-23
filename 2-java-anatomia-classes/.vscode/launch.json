@@ -1,0 +1,146 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ClienteBanco",
+            "request": "launch",
+            "mainClass": "ClienteBanco",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SobreMim",
+            "request": "launch",
+            "mainClass": "SobreMim",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClienteBanco",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula7Terminais.BancoTerminal.ClienteBanco",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SobreMim",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula7Terminais.SobreMim",
+            "args": [
+                "José",
+                "Roberto",
+                "18",
+                "1.85"
+            ],
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aluno",
+            "request": "launch",
+            "mainClass": "Aluno",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula7Terminais.Teste",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aluno",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula6JavaDoc.Aluno",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula6JavaDoc.Calculadora",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cliente",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula5Escopos.CaixaEletronico.Cliente",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cliente",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula5Escopos.Cliente",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Usuario",
+            "request": "launch",
+            "mainClass": "edu.roberto.aula4Metodos.SmartTv.Usuario",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch VariaveisConstantes",
+            "request": "launch",
+            "mainClass": "edu.roberto.tiposVariaveis.VariaveisConstantes",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Usuario",
+            "request": "launch",
+            "mainClass": "edu.roberto.metodos.SmartTv.Usuario",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperacoesCondicionais",
+            "request": "launch",
+            "mainClass": "edu.roberto.operadores.OperacoesCondicionais",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operacao",
+            "request": "launch",
+            "mainClass": "edu.roberto.operadores.Operacao",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlgumaCoisa",
+            "request": "launch",
+            "mainClass": "edu.roberto.tiposVariaveis.AlgumaCoisa",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SistemaDeNomes",
+            "request": "launch",
+            "mainClass": "edu.roberto.anatomiaJava.SistemaDeNomes",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinhaClasse",
+            "request": "launch",
+            "mainClass": "MinhaClasse",
+            "projectName": "java-anatomia-classes_567bfdbc"
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44e6f6e2-b413-4f7c-afeb-964d8d3a8143" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../4 - collections/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../4 - collections/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1- logica-condicional-e-controle-de-fluxo/src/1- logica-condicional-e-controle-de-fluxo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/2 - java-anatomia-classes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula1AnatomiaJava/SistemaDeNomes.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula1AnatomiaJava/SistemaDeNomes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula6JavaDoc/aula6JavaDoc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roberto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/AulaArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Aulas/AulaArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/AulaMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Aulas/AulaMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/AulaSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Aulas/AulaSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/AulaStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Aulas/AulaStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/OrdenacaoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Ordenacao/OrdenacaoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/OrdenacaoMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Ordenacao/OrdenacaoMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/OrdenacaoSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Ordenacao/OrdenacaoSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4 - collections/src/OrdenacaoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4 - collections/src/Ordenacao/OrdenacaoStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/collections.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/AulaArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/AulaMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/AulaSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/AulaStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/Exercicios/ExercicioList1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/Exercicios/ExercicioList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/Exercicios/ExercicioMap1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/Exercicios/ExercicioMap2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/Exercicios/ExercicioSet1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/Exercicios/ExercicioSet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/OrdenacaoArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/OrdenacaoMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/OrdenacaoSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../collections/src/OrdenacaoStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/desafio-de-projeto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/src/br/com/dio/desafio/dominio/Bootcamp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/src/br/com/dio/desafio/dominio/Conteudo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/src/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/src/br/com/dio/desafio/dominio/Dev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto/src/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/desafio-de-projeto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/src/br/com/dio/desafio/dominio/Bootcamp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/src/br/com/dio/desafio/dominio/Conteudo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/src/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/src/br/com/dio/desafio/dominio/Dev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto1/src/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/padroes-projeto-java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/facade/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/singleton/EagerSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/singleton/LazyHolderSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/singleton/LazySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/strategy/Comportamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/strategy/ComportamentoAgressivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/strategy/ComportamentoDefensivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/strategy/ComportamentoNormal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/one/digitalinnovation/gof/strategy/Robo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/subsistema1/crm/CrmService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-java/src/subsistema2/cep/CepApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/controller/ClienteRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/EnderecoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/service/ViaCepService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafio-de-projeto2/padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/service/impl/ClienteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/desafios-de-codigo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/src/fatorial/FatoralDesajeitado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/src/matrizes/ClassificandoArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/src/palindromo/Palindromo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/src/quadrados/Quadrados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../desafios-de-codigo/src/valido/ParentesesValido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/banana.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/exceptions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/src/CheckedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/src/CustomizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/src/CustomizedException2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../exceptions/src/UncheckedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula1AnatomiaJava/SistemaDeNomes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula1AnatomiaJava/SistemaDeNotas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula2TiposVariaveis/VariaveisConstantes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula3Operadores/Operacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula3Operadores/OperacoesCondicionais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula4Metodos/PrimeirosMetodos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula4Metodos/SmartTv/SmartTv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula4Metodos/SmartTv/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula5Escopos/CaixaEletronico/CaixaEletronico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula5Escopos/CaixaEletronico/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula5Escopos/CalcularDivida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula6JavaDoc/Calculadora/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula6JavaDoc/Calculadora/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula6JavaDoc/aula6JavaDoc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula7Terminais/BancoTerminal/BancoTerminal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula7Terminais/BancoTerminal/ClienteBanco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/aula7Terminais/SobreMim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java-anatomia-classes/src/edu/roberto/roberto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/ControleDeFluxo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/DesafiosDeCodigo/DesafioDeCodigo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/DesafiosDeCodigo/DesafioDeCodigo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/DesafiosDeCodigo/DesafioDeCodigo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/DesafiosDeCodigo/DesafioDeCodigo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/DesafiosDeCodigo/DesafioDeCodigo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/ExercicioArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/ExercicioLoops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/ExerciciosMetodos/CalculaArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/ExerciciosMetodos/Emprestimo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/ExerciciosMetodos/Horas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/OperadoresCondicionais/src/OperadoresLogicos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logica-condicional-e-controle-de-fluxo/logica-condicional-e-controle-de-fluxo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/orientacao-a-objeto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Compra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Cupom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Escola/Cor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Escola/Escola.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Escola/Estudante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Escola/Sexo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/PolimorfismoSobrescrever/ClasseFilha1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/PolimorfismoSobrescrever/ClasseFilha2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/PolimorfismoSobrescrever/ClasseMae.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/PolimorfismoSobrescrever/Rodar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Resolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../orientacao-a-objeto/src/Restaurante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/padroes-projeto-java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/facade/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/singleton/EagerSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/singleton/LazyHolderSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/singleton/LazySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/strategy/Comportamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/strategy/ComportamentoAgressivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/strategy/ComportamentoDefensivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/strategy/ComportamentoNormal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/one/digitalinnovation/gof/strategy/Robo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/subsistema1/crm/CrmService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-java/src/subsistema2/cep/CepApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/controller/ClienteRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/model/EnderecoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/service/ViaCepService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../padroes-projeto-spring/src/main/java/one/digitalinnovation/gof/service/impl/ClienteServiceImpl.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2HvSVz0gWpvwSkpiBfnUcCqqY26" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/workspace/Dio-java-basico/2 - java-anatomia-classes/src/edu/roberto"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44e6f6e2-b413-4f7c-afeb-964d8d3a8143" name="Changes" comment="" />
+      <created>1669164091762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669164091762</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

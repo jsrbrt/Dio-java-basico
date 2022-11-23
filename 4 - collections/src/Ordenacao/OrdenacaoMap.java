@@ -1,3 +1,5 @@
+package Ordenacao;
+
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -10,10 +12,10 @@ import java.util.TreeSet;
 public class OrdenacaoMap {
     /*Dadas as seguintes informações sobre meus livros favoritos e seus autores,
 crie um dicionário e ordene este dicionário:
-exibindo (Nome Autor - Nome Livro);
-Autor = Hawking, Stephen  - Livro = nome: Uma Breve História do Tempo. páginas: 256
-Autor = Duhigg, Charles - Livro = nome: O Poder do Hábito, paginas: 408
-Autor = Harari, Yuval Noah  - Livro = 21 Lições Para o Século 21, páginas: 432
+exibindo (Nome Autor - Nome Ordenacao.Livro);
+Autor = Hawking, Stephen  - Ordenacao.Livro = nome: Uma Breve História do Tempo. páginas: 256
+Autor = Duhigg, Charles - Ordenacao.Livro = nome: O Poder do Hábito, paginas: 408
+Autor = Harari, Yuval Noah  - Ordenacao.Livro = 21 Lições Para o Século 21, páginas: 432
 */
     public static void main(String[] args) {
         System.out.println("Dadas as seguintes informações sobre meus livros favoritos e seus autores, crie um dicionário e ordene este dicionário:");

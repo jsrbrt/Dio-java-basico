@@ -1,3 +1,5 @@
+package Ordenacao;
+
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -10,9 +12,9 @@ import java.util.TreeSet;
 
 /*Dadas as seguintes informações  de id e contato, crie um dicionário e
 ordene este dicionário exibindo (Nome id - Nome contato);
-id = 1 - Contato = nome: Simba, numero: 2222;
-id = 4 - Contato = nome: Cami, numero: 5555;
-id = 3 - Contato = nome: Jon, numero: 1111;
+id = 1 - Ordenacao.Contato = nome: Simba, numero: 2222;
+id = 4 - Ordenacao.Contato = nome: Cami, numero: 5555;
+id = 3 - Ordenacao.Contato = nome: Jon, numero: 1111;
 */
 public class OrdenacaoStream {
     public static void main(String[] args) {
@@ -44,18 +46,18 @@ public class OrdenacaoStream {
 
         System.out.println("\nExiba os contatos na ordem pelo nome da pessoa:");
         //classe anonima
-        /*Set<Map.Entry<Integer, Contato>> contatosOrdemNome = new TreeSet<>(new Comparator<Map.Entry<Integer,Contato>>() {
+        /*Set<Map.Entry<Integer, Ordenacao.Contato>> contatosOrdemNome = new TreeSet<>(new Comparator<Map.Entry<Integer,Ordenacao.Contato>>() {
             @Override
-            public int compare(Map.Entry<Integer,Contato> c1, Map.Entry<Integer,Contato> c2) {
+            public int compare(Map.Entry<Integer,Ordenacao.Contato> c1, Map.Entry<Integer,Ordenacao.Contato> c2) {
             return c1.getValue().getNome().compareToIgnoreCase(c2.getValue().getNome());
             }
         });*/
 
         //usando o comparing
-        /*Set<Map.Entry<Integer, Contato>> contatosOrdemNome = new TreeSet<>(
-            Comparator.comparing(new Function<Map.Entry<Integer, Contato>, String>(){
+        /*Set<Map.Entry<Integer, Ordenacao.Contato>> contatosOrdemNome = new TreeSet<>(
+            Comparator.comparing(new Function<Map.Entry<Integer, Ordenacao.Contato>, String>(){
                 @Override
-                public String apply(Map.Entry<Integer,Contato> c1) {
+                public String apply(Map.Entry<Integer,Ordenacao.Contato> c1) {
                 return c1.getValue().getNome();
                 }
             }
@@ -70,7 +72,7 @@ public class OrdenacaoStream {
             System.out.println(cadaNome.getKey() + " - " + cadaNome.getValue().getNome());
         }
 
-    //Set<Map.Entry<Integer, Contato>> contatosOrdemNome = new TreeSet<>(Comparator.comparing((Contato contato) -> (contato.getNome())));
+    //Set<Map.Entry<Integer, Ordenacao.Contato>> contatosOrdemNome = new TreeSet<>(Comparator.comparing((Ordenacao.Contato contato) -> (contato.getNome())));
 
         System.out.println("\nExiba os contatos na ordem pelo número:");
         Set<Map.Entry<Integer, Contato>> contatosOrdemNumero = new TreeSet<>(

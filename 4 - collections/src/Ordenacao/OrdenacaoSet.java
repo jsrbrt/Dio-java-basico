@@ -1,3 +1,5 @@
+package Ordenacao;
+
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
