@@ -1,18 +1,15 @@
-## Getting Started
+## Descrição do Curso
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O projeto contém o conteúdo do curso de introdução à lógica de computação, sendo algumas das aulas sobre operadores lógicos, controle de fluxo, etc. 
 
-## Folder Structure
+## Conteúdos
 
-The workspace contains two folders by default, where:
+Os conteúdos estão citados na ordem de apresentação:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> 1. [`Operadores Lógicos`](https://github.com/jsrbrt/Dio-java-basico/blob/main/1-logica-condicional-e-controle-de-fluxo/src/OperadoresLogicos.java) : contém o conteúdo da aula de operadores lógicos e seus exercícios.
+> 2. [`Controle de Fluxo`](https://github.com/jsrbrt/Dio-java-basico/blob/main/1-logica-condicional-e-controle-de-fluxo/src/ControleDeFluxo.java) : contém o conteúdo da aula sobre controle de fluxo e seus exercícios.
+> 
+>    ↳ [`Blocos Arrays`](https://github.com/jsrbrt/Dio-java-basico/blob/main/1-logica-condicional-e-controle-de-fluxo/src/ExercicioArrays.java) : contém os exercícios usando arrays.
+>    
+>    ↳ [`Blocos Loops`](https://github.com/jsrbrt/Dio-java-basico/blob/main/1-logica-condicional-e-controle-de-fluxo/src/ExercicioLoops.java) : contém os exercicios usando loops.
+>3. [`Exercícios`](https://github.com/jsrbrt/Dio-java-basico/tree/main/1-logica-condicional-e-controle-de-fluxo/src/ExerciciosMetodos) : contém os exercícios/desafios feitos em classe.
