@@ -1,9 +1,18 @@
 import java.util.*;
+import java.util.Scanner;
 
-public class ClassificandoArrays {
-
+public class ClassificandoMatrizes {
     public static void main(String[] args) {
         classificarArray();
+    }
+    public static Set<Integer> lerArray(){
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        int[] nums = new int[N];
+        for (int i = 0; i < N; i++) nums[i] = scanner.nextInt();
+        Set<Integer> numeros1 = new LinkedHashSet<>();
+        for (int i = nums.length-1; i >= 0; i--) numeros1.add(nums[i]);
+        return numeros1;
     }
     public static void classificarArray(){
         List<Integer> numeros2 = new ArrayList<>(lerArray());
@@ -22,13 +31,5 @@ public class ClassificandoArrays {
         }
         for (int j = numeros2.size()-1; j >= 0 ; j--) System.out.println(numeros2.get(j));
     }
-    public static Set<Integer> lerArray(){
-        Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
-        int[] nums = new int[N];
-        for (int i = 0; i < N; i++) nums[i] = scanner.nextInt();
-        Set<Integer> numeros1 = new LinkedHashSet<>();
-        for (int i = nums.length-1; i >= 0; i--) numeros1.add(nums[i]);
-        return numeros1;
-    }
+
 }

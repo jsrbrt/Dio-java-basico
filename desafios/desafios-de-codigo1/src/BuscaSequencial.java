@@ -8,10 +8,10 @@ public class BuscaSequencial {
         int[] elementos = {64, 137, -16, 43, 67, 81, -90, 212, 10, 75};
         for (int i = 0; i < elementos.length; i++) {
             if(elementos[i] == numeroDesejado){
-                System.out.println("Achei " + numeroDesejado + " na posição " + i);
+                System.out.println("Achei " + numeroDesejado + " na posicao " + i);
                 return;
             }
         }
-        System.out.println("Número " + numeroDesejado + " não encontrado!");
+        System.out.println("Numero " + numeroDesejado + " nao encontrado!");
     }
 }

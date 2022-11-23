@@ -1,13 +1,13 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class ParentesesValido {
     public static void main(String[] args) {
-        String entrada = new Scanner(System.in).nextLine();
-        boolean caracter = ehValido(entrada);
-        System.out.printf("A String '%s' é válida? "+ caracter, entrada);
+        System.out.println(ehValido(new Scanner(System.in).nextLine()));
     }
     public static boolean ehValido(String s) {
         //TODO: implemente a lógica de caracteres válidos e retorne se a string é valida ou não.
+
+        //daria para fazer mais simples, mas desse jeito ele checa a ordem para definir se é valido
         boolean parenteses = s.contains("(") && s.contains(")");
         boolean colchetes = s.contains("[") && s.contains("]");
         boolean chaves = s.contains("{") && s.contains("}");

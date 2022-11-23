@@ -8,5 +8,10 @@ public class SistemaDeNomes {
     }
     public static String nomeCompleto (String primeiroNome, String segundoNome){
         return "Seu nome completo é: " + primeiroNome + (" ") + segundoNome;
+<<<<<<< HEAD
     }
+=======
+        
+        }
+>>>>>>> 241511ea28ab93e71b58005df96a87d3acfad95c
 }

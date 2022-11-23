@@ -1,29 +1,27 @@
 import java.util.Scanner;
 /* Retorne a palavra correta de acordo com o múltiplo de "num".
-       Entrada
-       Você receberá um número onde:
-       Se o número for um múltiplo de 3 e 5 -> "FizzBuzz" ;
-       Se o número for apenas múltiplo de 3 -> "Fizz" ;
-       Se o número for apenas múltiplo de 5 -> "Buzz";
-       Se o número não for um múltiplo de 3 ou 5, o número deve ser exibido;
+   Entrada
+   Você receberá um número onde:
+   Se o número for um múltiplo de 3 e 5 -> "FizzBuzz" ;
+   Se o número for apenas múltiplo de 3 -> "Fizz" ;
+   Se o número for apenas múltiplo de 5 -> "Buzz";
+   Se o número não for um múltiplo de 3 ou 5, o número deve ser exibido;
 
-       Saída
-       Retorne a palavra correta de acordo com o seu múltiplo. Caso o valor não seja múltiplo de 3 ou 5, exiba o número, conforme exemplo abaixo:
-       Caso o valor não seja múltiplo de 3 ou 5, exiba o número, conforme o enunciado.*/
+   Saída
+   Retorne a palavra correta de acordo com o seu múltiplo. Caso o valor não seja múltiplo de 3 ou 5, exiba o número, conforme exemplo abaixo:
+   Caso o valor não seja múltiplo de 3 ou 5, exiba o número, conforme o enunciado.*/
 public class FizzBuzz {
     public static void main(String[] args) {
-        System.out.println(funcao(new Scanner(System.in).nextInt()));
-    }
-    public static String funcao(int num) {
-        String fizz = "Fizz";
-        String buzz = "Buzz";
-        
-        if(num % 3 == 0 && num % 5 == 0) return fizz + buzz;
-        else if(num % 5 == 0) return buzz;
-        else if(num % 3 == 0) return fizz;
-        else{
-            return String.valueOf(num);
-            //return "O número " + String.valueOf(num) + " não é FizzBuzz :(";
+        //TODO:  Retorne o valor da soma de todos múltiplos de "A" até o seu limite "N".
+        int A, N;
+        Scanner input = new Scanner(System.in);
+        A = input.nextInt();
+        N = input.nextInt();
+        int soma = 0;
+        for (int i = A; i <= N; i++) {
+            if(i % A == 0) soma += i;
         }
+        System.out.println(soma);
+        input.close();
     }
 }
