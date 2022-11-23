@@ -1,6 +1,6 @@
 ## Descrição do Curso
 
-O projeto contém o conteúdo do curso de introdução ao paradigma de orientação a objetos, sendo algumas das aulas , etc. 
+O projeto contém o conteúdo do curso de introdução ao paradigma de orientação a objetos, sendo algumas das aulas sobre herança, associação, interfaces, etc. 
 
 ## Conteúdos
 
