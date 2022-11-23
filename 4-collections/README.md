@@ -22,9 +22,11 @@ Os conteúdos estão citados na ordem de apresentação:
 >     - List: contém os exercícios usando ArrayList. <br>
 >       ↳ [`temperaturas`](https://github.com/jsrbrt/Dio-java-basico/blob/main/4-collections/src/Exercicios/ExercicioList1.java) : 1° exercício sobre Lists.<br>
 >       ↳ [`verificarProcedencia`](https://github.com/jsrbrt/Dio-java-basico/blob/main/4-collections/src/Exercicios/ExercicioList2.java) : 2° exercício sobre Lists.<br>
+>
 >     - Set: contém os exercícios usando HashSet, LinkedHashSet, TreeSet.<br>
 >       ↳ [`arcoIris`](https://github.com/jsrbrt/Dio-java-basico/blob/main/4-collections/src/Exercicios/ExercicioSet1.java) : 1° exercício sobre Set.<br>
 >       ↳ [`linguagens`](https://github.com/jsrbrt/Dio-java-basico/blob/main/4-collections/src/Exercicios/ExercicioSet2.java) : 2° exercício sobre Set.<br>
+>
 >     - Map: contém os exercícios da aula usando HashMap, LinkedHashMap, TreeMap.<br>
 >       ↳ [`estadosNE`](https://github.com/jsrbrt/Dio-java-basico/blob/main/4-collections/src/Exercicios/ExercicioMap1.java) : 1° exercício sobre Map.<br>
 >       ↳ [`dados`](https://github.com/jsrbrt/Dio-java-basico/blob/main/4-collections/src/Exercicios/ExercicioMap2.java) : 2° exercício sobre Map.
