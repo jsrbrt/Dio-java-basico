@@ -13,3 +13,5 @@ Os conteúdos estão citados na ordem de apresentação:
 >    ↳ [`Blocos Loops`](https://github.com/jsrbrt/Dio-java-basico/blob/main/1-logica-condicional-e-controle-de-fluxo/src/ExercicioLoops.java) : contém os exercicios usando loops.
 
 >3. [`Exercícios`](https://github.com/jsrbrt/Dio-java-basico/tree/main/1-logica-condicional-e-controle-de-fluxo/src/ExerciciosMetodos) : contém os exercícios/desafios feitos em classe.
+
+>[`Resumo do conteúdo`](https://github.com/jsrbrt/Dio-java-basico/blob/main/1-logica-condicional-e-controle-de-fluxo/src/README.md)
