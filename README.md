@@ -10,6 +10,7 @@
 
 O projeto foi desenvolvido baseado nos cursos de Java durante o Bootcamp Potência Tech - Java Beginners, uma trilha introdutória ao mercado tech que contém, desde aulas com conteúdos completos até desafios de código e de projeto, tendo a finalidade de estudo e aprendizado. 
 O projeto foi dividido em cursos específicos definidos pela ordem que foram apresentados, sendo eles:
+* [Notas](https://github.com/jsrbrt/Dio-java-basico/blob/main/Notas.md)
 * [1 - Lógica condicional e controle de fluxo](https://github.com/jsrbrt/Dio-java-basico/tree/main/1-logica-condicional-e-controle-de-fluxo)
 * [2 - Anatomia Java](https://github.com/jsrbrt/Dio-java-basico/tree/main/2-java-anatomia-classes)
 * [3 - Orientação a objetos](https://github.com/jsrbrt/Dio-java-basico/tree/main/3-orientacao-a-objeto)
